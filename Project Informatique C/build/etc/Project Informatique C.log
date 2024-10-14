@@ -1,0 +1,10 @@
+﻿  newGame.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\newGame.c(22,12): warning C4013: '_getch' non défini(e) ; extern retournant int pris par défaut
+  Génération de code en cours
+  4 of 15 functions (26.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  Project Informatique C.vcxproj -> C:\Users\Utilisateur\source\repos\Project Informatique C\build\Project Informatique C.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.

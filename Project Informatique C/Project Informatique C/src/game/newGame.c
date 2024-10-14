@@ -1,32 +1,7 @@
 #include "newGame.h"
+#include "playerQol.h"
 
 #include <stdio.h>
-#include <windows.h>
-
-void gotoligcol(int lig, int col)
-{
-	COORD mycoord;
-	mycoord.X = col;
-	mycoord.Y = lig;
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), mycoord);
-}
-int getNumberOfPlayer()
-{
-	char player;
-
-	do
-	{
-		system("cls");
-		printf("How many player are playing ? (2 or 4): ");
-		
-		player = _getch();
-
-	} while (player != '2' && player != '4');
-
-	printf("\nStarting a game with %c players !\n", player);
-
-	return player;
-}
 
 void printSupport()
 {
@@ -80,60 +55,9 @@ void startGameOf2()
 	system("cls");
 
 	printSupport();
-
-	struct Player player1;
-
-	printf("\n\nEnter player 1 name: ");
-	fgets(player1.name, 25, stdin);
-
-	printf("\nEnter player 1 character: ");
-	player1.character = getchar();
-	while (getchar() != '\n');
-
-	printf("\nEnter player 1 color: ");
-	fgets(player1.color, 10, stdin);
-
-	gotoligcol(20, 2);
-	printf("%c", player1.character);
-
-	for (int i = 20; i < 40; i++)
-	{
-		gotoligcol(i, 0);
-		printf("                                                             ");
-	}
-
-	struct Player player2;
-
-	gotoligcol(13, 0);
-
-	printf("\n\nEnter player 2 name: ");
-	fgets(player2.name, 25, stdin);
-
-	printf("\nEnter player 2 character: ");
-	player2.character = getchar();
-	while (getchar() != '\n');
-
-	printf("\nEnter player 2 color: ");
-	fgets(player2.color, 10, stdin);
-
-	gotoligcol(20, 2);
-	printf("%c", player2.character);
+	get2Players();
 }
 
-/*struct Player player2;
-
-	printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnter player 2 name: ");
-	fgets(player2.name, 25, stdin);
-
-	printf("\nEnter player 2 character: ");
-	player2.character = getchar();
-	while (getchar() != '\n');
-
-	printf("\nEnter player 2 color: ");
-	fgets(player2.color, 10, stdin);
-
-	gotoligcol(40, 20);
-	printf("%c", player2.character);*/
 
 void startGameOf4()
 {

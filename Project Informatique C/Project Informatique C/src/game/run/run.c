@@ -85,12 +85,24 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (y1 + 4 <= 36)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 + 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -98,25 +110,49 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (y1 + 8 <= 36)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 + 6) == '#' || getCharAtPos(x1, y1 + 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 2;
             }
             else
             {
-                printf("Invalid move");
-                return 3;
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
+                return 0;
             }
         }
         else
         {
             if (y1 + 4 <= 36)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 + 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -125,12 +161,24 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (y1 - 4 >= 4)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 - 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -138,25 +186,49 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (y1 - 8 >= 4)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 - 6) == '#' || getCharAtPos(x1, y1 - 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 2;
             }
             else
             {
-                printf("Invalid move");
-                return 3;
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
+                return 0;
             }
         }
         else
         {
             if (y1 - 4 >= 4)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1, y1 - 2) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -165,12 +237,24 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (x1 - 2 >= 2)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 - 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -178,25 +262,49 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (x1 - 4 >= 2)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 - 3, y1) == '#' || getCharAtPos(x1 - 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 2;
             }
             else
             {
-                printf("Invalid move");
-                return 3;
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
+                return 0;
             }
         }
         else
         {
             if (x1 - 2 >= 2)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 - 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
@@ -205,50 +313,86 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
         {
             if (x1 + 2 <= 18)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 + 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
-
         }
         if (y1 == y2)
         {
             if (x1 + 4 <= 18)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 + 3, y1) == '#' || getCharAtPos(x1 + 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 2;
             }
             else
             {
-                printf("Invalid move");
-                return 3;
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
+                return 0;
             }
         }
         else
         {
             if (x1 + 2 <= 18)
             {
-                printf("Valid move");
+                if (getCharAtPos(x1 + 1, y1) == '#')
+                {
+                    gotoligcol(12, 50);
+                    printf("There is a wall !");
+                    Sleep(2000);
+                    gotoligcol(12, 50);
+                    printf("                                    ");
+                    return 0;
+                }
                 return 1;
             }
             else
             {
-                printf("Invalid move");
+                gotoligcol(12, 50);
+                printf("You can't go outside the map !");
+                Sleep(2000);
+                gotoligcol(12, 50);
+                printf("                                    ");
                 return 0;
             }
         }
+
     default:
         return 0;
     }
 }
 
-bool winner(bool quoicouVariavble, int x1, int x2, char* firstPlayer, char* secondPlayer)
+bool winner(bool quoicouVariable, int x1, int x2, char* firstPlayer, char* secondPlayer)
 {
-    if (quoicouVariavble)
+    if (quoicouVariable)
     {
         if (x1 == 18)
         {
@@ -285,6 +429,24 @@ bool winner(bool quoicouVariavble, int x1, int x2, char* firstPlayer, char* seco
     return false;
 }
 
+void setHeader(char* firstPlayer, char* secondPlayer, char firstPlayerChar, char secondPlayerChar)
+{
+    gotoligcol(4, 50);
+    printf("%s", firstPlayer);
+
+    gotoligcol(4, 50 + strlen(firstPlayer));
+    printf("(%c) VS (%c)", firstPlayerChar, secondPlayerChar);
+
+    gotoligcol(4, 50 + strlen(firstPlayer) + 11);
+    printf("%s", secondPlayer);
+}
+
+void setWalls(int x, int y)
+{
+    gotoligcol(x, y);
+    printf("#");
+}
+
 void run2players(const short choice, char* player1, char* player2, char character1, char character2)
 {
     char firstPlayer[25];
@@ -299,7 +461,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
     int posFirstPlayer[2] = { 2, 20 };
     int posSecondPlayer[2] = { 18, 20 };
 
-    bool quoicouVariavble;
+    bool quoicouVariable;
 
     if (choice == 0)
     {
@@ -311,7 +473,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         posFirstPlayer[1] = 20;
         posSecondPlayer[0] = 18;
         posSecondPlayer[1] = 20;
-        quoicouVariavble = true;
+        quoicouVariable = true;
     }
     else
     {
@@ -323,208 +485,106 @@ void run2players(const short choice, char* player1, char* player2, char characte
         posFirstPlayer[1] = 20;
         posSecondPlayer[0] = 2;
         posSecondPlayer[1] = 20;
-        quoicouVariavble = false;
+        quoicouVariable = false;
     }
 
-    gotoligcol(4, 50);
-    printf("%s", firstPlayer);
+    setHeader(firstPlayer, secondPlayer, firstPlayerChar, secondPlayerChar);
 
-    gotoligcol(4, 50 + strlen(firstPlayer));
-    printf("(%c) VS (%c)", firstPlayerChar, secondPlayerChar);
-
-    gotoligcol(4, 50 + strlen(firstPlayer) + 11);
-    printf("%s", secondPlayer);
-
-    while (!winner(quoicouVariavble, posFirstPlayer[0], posSecondPlayer[0], firstPlayer, secondPlayer))
+    while (!winner(quoicouVariable, posFirstPlayer[0], posSecondPlayer[0], firstPlayer, secondPlayer))
     {
-        char buffer, buffer2;
-
+        char buffer, movement;
         int score = 0;
 
-        gotoligcol(8, 50);
-        printf("Score : %d", score);
-
-        gotoligcol(6, 50);
-        printf("                                    ");
-        gotoligcol(6, 50);
-        printf("Turn: %s", firstPlayer);
-
-        gotoligcol(10, 50);
-        printf("                                    ");
-        gotoligcol(10, 50);
-        printf("Walls left: %d", firstPlayerWalls);
-
-        do {
-            cleanup();
-            gotoligcol(20, strlen(firstPlayer) + 37);
-            printf("             ");
-
-            gotoligcol(20, 0);
-            printf("It's your turn %s", firstPlayer);
-            gotoligcol(20, strlen(firstPlayer) + 14);
-            printf(" move = m, place = p : ");
-            scanf_s("%c", &buffer, 2);
-
-        } while (buffer != 'm' && buffer != 'p');
-
-        if (buffer == 'm')
+        for (int playerTurn = 0; playerTurn < 2; playerTurn++) 
         {
-            char movement;
-            do
-            {
-                cleanup();
-                gotoligcol(20, 0);
-                printf("How do you want to move ?\n");
-                printf("Up : u\n");
-                printf("Down : d\n");
-                printf("Right : r\n");
-                printf("Left : l\n");
-                scanf_s(" %c", &movement, 2);
-            } while (legitCheck(posFirstPlayer[0], posFirstPlayer[1], posSecondPlayer[0], posSecondPlayer[1], movement) == 0 || legitCheck(posFirstPlayer[0], posFirstPlayer[1], posSecondPlayer[0], posSecondPlayer[1], movement) == 3);
+            char* currentPlayer = (playerTurn == 0) ? firstPlayer : secondPlayer;
+            int* currentPlayerPos = (playerTurn == 0) ? posFirstPlayer : posSecondPlayer;
+            int* opponentPlayerPos = (playerTurn == 0) ? posSecondPlayer : posFirstPlayer;
+            int* currentPlayerWalls = (playerTurn == 0) ? &firstPlayerWalls : &secondPlayerWalls;
+            char currentPlayerChar = (playerTurn == 0) ? firstPlayerChar : secondPlayerChar;
 
-            switch (legitCheck(posFirstPlayer[0], posFirstPlayer[1], posSecondPlayer[0], posSecondPlayer[1], movement))
-            {
-            case 1:
-                switch (movement)
+            gotoligcol(8, 50);
+            printf("Score : %d", score);
+
+            gotoligcol(6, 50);
+            printf("                                    ");
+            gotoligcol(6, 50);
+            printf("Turn: %s", currentPlayer);
+
+            gotoligcol(10, 50);
+            printf("                                    ");
+            gotoligcol(10, 50);
+            printf("Walls left: %d", *currentPlayerWalls);
+
+            do {
+                cleanup();
+                gotoligcol(20, strlen(currentPlayer) + 37);
+                printf("             ");
+
+                gotoligcol(20, 0);
+                printf("It's your turn %s", currentPlayer);
+                gotoligcol(20, strlen(currentPlayer) + 14);
+                printf(" move = m, place = p : ");
+                scanf_s("%c", &buffer, 2);
+            } while (buffer != 'm' && buffer != 'p');
+
+            if (buffer == 'm') {
+                do 
                 {
-                case 'r':
-                    goRight(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[1] += 4;
-                    break;
-                case 'l':
-                    goLeft(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[1] -= 4;
-                    break;
-                case 'u':
-                    goUp(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[0] -= 2;
-                    break;
-                case 'd':
-                    goDown(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[0] += 2;
-                    break;
-                default:
-                    break;
+                    cleanup();
+                    gotoligcol(20, 0);
+                    printf("How do you want to move ?\n");
+                    printf("Up : u\n");
+                    printf("Down : d\n");
+                    printf("Right : r\n");
+                    printf("Left : l\n");
+                    scanf_s(" %c", &movement, 2);
+                } while (legitCheck(currentPlayerPos[0], currentPlayerPos[1], opponentPlayerPos[0], opponentPlayerPos[1], movement) == 0);
+                   
+
+                int moveType = legitCheck(currentPlayerPos[0], currentPlayerPos[1], opponentPlayerPos[0], opponentPlayerPos[1], movement);
+
+                if (moveType == 1 || moveType == 2) {
+                    int step = (moveType == 1) ? 4 : 8;
+
+                    switch (movement) {
+                    case 'r':
+                        if (moveType == 1)
+                            goRight(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        else
+                            goRightBoosted(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        currentPlayerPos[1] += step;
+                        break;
+                    case 'l':
+                        if (moveType == 1)
+                            goLeft(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        else
+                            goLeftBoosted(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        currentPlayerPos[1] -= step;
+                        break;
+                    case 'u':
+                        if (moveType == 1)
+                            goUp(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        else
+                            goUpBoosted(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        currentPlayerPos[0] -= step / 2;
+                        break;
+                    case 'd':
+                        if (moveType == 1)
+                            goDown(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        else
+                            goDownBoosted(currentPlayerPos[0], currentPlayerPos[1], currentPlayerChar);
+                        currentPlayerPos[0] += step / 2;
+                        break;
+                    default:
+                        break;
+                    }
                 }
-                break;
-            case 2:
-                switch (movement)
-                {
-                case 'r':
-                    goRightBoosted(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[1] += 8;
-                    break;
-                case 'l':
-                    goLeftBoosted(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[1] -= 8;
-                    break;
-                case 'u':
-                    goUpBoosted(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[0] -= 4;
-                    break;
-                case 'd':
-                    goDownBoosted(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
-                    posFirstPlayer[0] += 4;
-                    break;
-                default:
-                    break;
-                }
-                break;
-            default:
-                break;
             }
-        }
-
-        gotoligcol(6, 50);
-        printf("                                    ");
-        gotoligcol(6, 50);
-        printf("Turn: %s", secondPlayer);
-
-        gotoligcol(10, 50);
-        printf("                                    ");
-        gotoligcol(10, 50);
-        printf("Walls left: %d", secondPlayerWalls);
-
-        do {
-            cleanup();
-            gotoligcol(20, strlen(secondPlayer) + 37);
-            printf("             ");
-
-            gotoligcol(20, 0);
-            printf("It's your turn %s", secondPlayer);
-            gotoligcol(20, strlen(secondPlayer) + 14);
-            printf(" move = m, place = p : ");
-            scanf_s("%c", &buffer, 2);
-
-        } while (buffer != 'm' && buffer != 'p');
-
-        if (buffer == 'm')
-        {
-            char movement;
-            do
+            if (buffer == 'p')
             {
-                cleanup();
-                gotoligcol(20, 0);
-                printf("How do you want to move ?\n");
-                printf("Up : u\n");
-                printf("Down : d\n");
-                printf("Right : r\n");
-                printf("Left : l\n");
-                scanf_s(" %c", &movement, 2);
-            } while (legitCheck(posSecondPlayer[0], posSecondPlayer[1], posFirstPlayer[0], posFirstPlayer[1], movement) == 0 || legitCheck(posSecondPlayer[0], posSecondPlayer[1], posFirstPlayer[0], posFirstPlayer[1], movement) == 3);
-
-            switch (legitCheck(posSecondPlayer[0], posSecondPlayer[1], posFirstPlayer[0], posFirstPlayer[1], movement))
-            {
-            case 1:
-                switch (movement)
-                {
-                case 'r':
-                    goRight(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[1] += 4;
-                    break;
-                case 'l':
-                    goLeft(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[1] -= 4;
-                    break;
-                case 'u':
-                    goUp(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[0] -= 2;
-                    break;
-                case 'd':
-                    goDown(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[0] += 2;
-                    break;
-                default:
-                    break;
-                }
-                break;
-            case 2:
-                switch (movement)
-                {
-                case 'r':
-                    goRightBoosted(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[1] += 8;
-                    break;
-                case 'l':
-                    goLeftBoosted(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[1] -= 8;
-                    break;
-                case 'u':
-                    goUpBoosted(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[0] -= 4;
-                    break;
-                case 'd':
-                    goDownBoosted(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
-                    posSecondPlayer[0] += 4;
-                    break;
-                default:
-                    break;
-                }
-                break;
-            default:
-                break;
+                
             }
         }
     }
-    
 }

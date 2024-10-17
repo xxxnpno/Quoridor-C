@@ -1,7 +1,26 @@
-﻿  Génération de code en cours
-  2 of 32 functions ( 6.2%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    12 functions had inline decision re-evaluated but remain unchanged
+﻿  base.c
+  main.c
+  newGame.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\init\newGame.c(7,2): warning C4013: 'system' non défini(e) ; extern retournant int pris par défaut
+  playerQol.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\player\playerQol.c(17,12): warning C4013: '_getch' non défini(e) ; extern retournant int pris par défaut
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\player\playerQol.c(28,8): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\player\playerQol.c(37,3): warning C4013: 'gotoligcol' non défini(e) ; extern retournant int pris par défaut
+  run.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c(92,21): warning C4013: 'Sleep' non défini(e) ; extern retournant int pris par défaut
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c(437,22): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c(440,44): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c(521,54): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c(526,54): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+  coords.c
+  support.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\coordinates\support.c(13,3): warning C4013: 'printf' non défini(e) ; extern retournant int pris par défaut
+  settings.c
+  timer.c
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\qol\timer.c(24,2): warning C4013: 'Sleep' non défini(e) ; extern retournant int pris par défaut
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 34 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Fin de la génération du code
   Project Informatique C.vcxproj -> C:\Users\Utilisateur\source\repos\Project Informatique C\build\Project Informatique C.exe
   'pwsh.exe' n'est pas reconnu en tant que commande interne

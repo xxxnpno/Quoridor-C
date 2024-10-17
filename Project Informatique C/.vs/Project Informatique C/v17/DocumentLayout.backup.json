@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,6 +87,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "run.c",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c*",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\run.c*",
+              "ViewState": "AgIAABwBAAAAAAAAAAAAAC4BAADJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-14T19:45:35.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -102,21 +115,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\utils\\settings.c",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:10:58.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "run.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c*",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\run.c*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T19:45:35.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:10:58.795Z"
             },
             {
               "$type": "Document",
@@ -152,8 +151,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\game\\run.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:45:25.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:45:25.883Z"
             },
             {
               "$type": "Document",
@@ -165,8 +163,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\game\\playerQol.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:39:57.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:39:57.538Z"
             },
             {
               "$type": "Document",
@@ -178,8 +175,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\game\\playerQol.c",
               "ViewState": "AgIAADYAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T19:39:50.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:39:50.697Z"
             },
             {
               "$type": "Document",
@@ -191,8 +187,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\utils\\coords.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:39:07.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:39:07.98Z"
             },
             {
               "$type": "Document",
@@ -216,8 +211,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\game\\newGame.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T14:18:10.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T14:18:10.685Z"
             },
             {
               "$type": "Document",
@@ -241,8 +235,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\utils\\settings.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T12:11:05.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:11:05.103Z"
             },
             {
               "$type": "Document",
@@ -266,8 +259,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\base\\base.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:01:34.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:01:34.722Z"
             },
             {
               "$type": "Document",
@@ -279,8 +271,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\utils\\ASCII.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:03:19.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:03:19.393Z"
             },
             {
               "$type": "Document",
@@ -304,8 +295,7 @@
               "RelativeToolTip": "Project Informatique C\\src\\base\\main\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T11:54:04.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T11:54:04.778Z"
             }
           ]
         }

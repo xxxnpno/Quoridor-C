@@ -40,6 +40,119 @@ void goRight(int x, int y, char player)
     printf("%c", player);
 }
 
+bool legitCheckBorder(int x, int y, char movement)
+{
+    cleanup();
+    gotoligcol(20, 0);
+    printf("Checking your move...\n");
+
+    switch (movement)
+    {
+    case 'r':
+        if (y + 4 <= 36)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Invalid move");
+            return false;
+        }
+    case 'l':
+        if (y - 4 >= 4)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Invalid move");
+            return false;
+        }
+    case 'u':
+        if (x - 2 >= 2)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Invalid move");
+            return false;
+        }
+    case 'd':
+        if (x + 2 <= 18)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Invalid move");
+            return false;
+        }
+    default:
+        return false;
+    }
+}
+
+bool legitCheckPlayer(int x1, int y1, int x2, int y2, char movement)
+{
+    cleanup();
+    gotoligcol(20, 0);
+
+    switch (movement)
+    {
+    case 'r':
+        if (y1 + 4 != y2)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Need more checks");
+            return false;
+        }
+    case 'l':
+        if (y1 - 4 != y2)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Need more checks");
+            return false;
+        }
+    case 'u':
+        if (x1 - 2 != x2)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Need more checks");
+            return false;
+        }
+    case 'd':
+        if (x1 + 2 != x2)
+        {
+            printf("Valid move");
+            return true;
+        }
+        else
+        {
+            printf("Need more checks");
+            return false;
+        }
+    default:
+        return false;
+    }
+}
+
 void run2players(const short choice, char* player1, char* player2, char character1, char character2)
 {
     char firstPlayer[25];
@@ -49,12 +162,12 @@ void run2players(const short choice, char* player1, char* player2, char characte
     char secondPlayerChar;
 
     int firstPlayerWalls = 20;
-    int secondPlayerWalls = 15;
+    int secondPlayerWalls = 20;
 
     int posFirstPlayer[2] = { 2, 20 };
     int posSecondPlayer[2] = { 18, 20 };
 
-    if (choice == 0) 
+    if (choice == 0)
     {
         strcpy_s(firstPlayer, sizeof(firstPlayer), player1);
         strcpy_s(secondPlayer, sizeof(secondPlayer), player2);
@@ -65,7 +178,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         posSecondPlayer[0] = 18;
         posSecondPlayer[1] = 20;
     }
-    else 
+    else
     {
         strcpy_s(firstPlayer, sizeof(firstPlayer), player2);
         strcpy_s(secondPlayer, sizeof(secondPlayer), player1);
@@ -85,7 +198,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
 
     gotoligcol(4, 50 + strlen(player1) + 11);
     printf("%s", player2);
-    
+
     gotoligcol(6, 50);
     printf("Turn: %s", firstPlayer);
 
@@ -102,7 +215,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         printf("                                    ");
         gotoligcol(10, 50);
         printf("Walls left: %d", firstPlayerWalls);
-        
+
         do {
             cleanup();
             gotoligcol(20, strlen(firstPlayer) + 37);
@@ -118,16 +231,20 @@ void run2players(const short choice, char* player1, char* player2, char characte
 
         if (buffer == 'm')
         {
-            cleanup();
-            gotoligcol(20, 0);
-            printf("How do you want to move ?\n");
-            printf("Up : u\n");
-            printf("Down : d\n");
-            printf("Right : r\n");
-            printf("Left : l\n");
             char movement;
-            getchar();
-            scanf_s("%c", &movement, 2);
+            do
+            {
+                cleanup();
+                gotoligcol(20, 0);
+                printf("How do you want to move ?\n");
+                printf("Up : u\n");
+                printf("Down : d\n");
+                printf("Right : r\n");
+                printf("Left : l\n");
+                getchar();
+                scanf_s("%c", &movement, 2);
+            } while (!legitCheckBorder(posFirstPlayer[0], posFirstPlayer[1], movement) );
+
             switch (movement)
             {
             case 'r':
@@ -155,7 +272,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         printf("                                    ");
         gotoligcol(10, 50);
         printf("Walls left: %d", secondPlayerWalls);
-        
+
         do {
             cleanup();
             gotoligcol(20, strlen(secondPlayer) + 37);
@@ -171,16 +288,20 @@ void run2players(const short choice, char* player1, char* player2, char characte
 
         if (buffer == 'm')
         {
-            cleanup();
-            gotoligcol(20, 0);
-            printf("How do you want to move ?\n");
-            printf("Up : u\n");
-            printf("Down : d\n");
-            printf("Right : r\n");
-            printf("Left : l\n");
             char movement;
-            getchar();
-            scanf_s("%c", &movement, 2);
+            do
+            {
+                cleanup();
+                gotoligcol(20, 0);
+                printf("How do you want to move ?\n");
+                printf("Up : u\n");
+                printf("Down : d\n");
+                printf("Right : r\n");
+                printf("Left : l\n");
+                getchar();
+                scanf_s("%c", &movement, 2);
+            } while (!legitCheckBorder(posSecondPlayer[0], posSecondPlayer[1], movement));
+
             switch (movement)
             {
             case 'r':
@@ -202,7 +323,6 @@ void run2players(const short choice, char* player1, char* player2, char characte
             default:
                 break;
             }
-
         }
     }
 }

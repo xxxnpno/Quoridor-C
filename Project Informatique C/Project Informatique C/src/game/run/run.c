@@ -246,6 +246,45 @@ int legitCheck(int x1, int y1, int x2, int y2, char movement)
     }
 }
 
+bool winner(bool quoicouVariavble, int x1, int x2, char* firstPlayer, char* secondPlayer)
+{
+    if (quoicouVariavble)
+    {
+        if (x1 == 18)
+        {
+            cleanup();
+            gotoligcol(12, 50);
+            printf("You won, %s", firstPlayer);
+            return true;
+        }
+        if (x2 == 2)
+        {
+            cleanup();
+            gotoligcol(12, 50);
+            printf("You won, %s", secondPlayer);
+            return true;
+        }
+    }
+    else
+    {
+        if (x1 == 2)
+        {
+            cleanup();
+            gotoligcol(12, 50);
+            printf("You won, %s", firstPlayer);
+            return true;
+        }
+        if (x2 == 18)
+        {
+            cleanup();
+            gotoligcol(12, 50);
+            printf("You won, %s", secondPlayer);
+            return true;
+        }
+    }
+    return false;
+}
+
 void run2players(const short choice, char* player1, char* player2, char character1, char character2)
 {
     char firstPlayer[25];
@@ -260,6 +299,8 @@ void run2players(const short choice, char* player1, char* player2, char characte
     int posFirstPlayer[2] = { 2, 20 };
     int posSecondPlayer[2] = { 18, 20 };
 
+    bool quoicouVariavble;
+
     if (choice == 0)
     {
         strcpy_s(firstPlayer, sizeof(firstPlayer), player1);
@@ -270,6 +311,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         posFirstPlayer[1] = 20;
         posSecondPlayer[0] = 18;
         posSecondPlayer[1] = 20;
+        quoicouVariavble = true;
     }
     else
     {
@@ -281,6 +323,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
         posFirstPlayer[1] = 20;
         posSecondPlayer[0] = 2;
         posSecondPlayer[1] = 20;
+        quoicouVariavble = false;
     }
 
     gotoligcol(4, 50);
@@ -292,7 +335,7 @@ void run2players(const short choice, char* player1, char* player2, char characte
     gotoligcol(4, 50 + strlen(firstPlayer) + 11);
     printf("%s", secondPlayer);
 
-    while (true)
+    while (!winner(quoicouVariavble, posFirstPlayer[0], posSecondPlayer[0], firstPlayer, secondPlayer))
     {
         char buffer, buffer2;
 

@@ -1,10 +1,13 @@
 ﻿  run.c
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(37,22): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(40,40): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(69,44): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(91,6): warning C4029: la déclaration de la liste de paramètres formels est différente de la définition
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(83,22): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(86,40): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(106,48): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(111,48): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(157,49): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(162,49): warning C4267: 'fonction' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c(97,18): warning C4101: 'buffer2' : variable locale non référencée
   Génération de code en cours
-  1 of 21 functions ( 4.8%) were compiled, the rest were copied from previous compilation.
+  1 of 26 functions ( 3.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code

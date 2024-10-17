@@ -7,29 +7,75 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool doesMoveExist(const char* move) {
-    if (strlen(move) != 2) {
-        return false;
-    }
+void goUp(int x, int y, char player)
+{
+    gotoligcol(x, y);
+    printf("+");
 
-    if (move[0] < 'A' || move[0] > 'I') {
-        return false;
-    }
+    gotoligcol(x - 2, y);
+    printf("%c", player);
+}
+void goDown(int x, int y, char player)
+{
+    gotoligcol(x, y);
+    printf("+");
 
-    if (move[1] < '1' || move[1] > '9') {
-        return false;
-    }
+    gotoligcol(x + 2, y);
+    printf("%c", player);
+}
+void goLeft(int x, int y, char player)
+{
+    gotoligcol(x, y);
+    printf("+");
 
-    return true;
+    gotoligcol(x, y - 4);
+    printf("%c", player);
+}
+void goRight(int x, int y, char player)
+{
+    gotoligcol(x, y);
+    printf("+");
+
+    gotoligcol(x, y + 4);
+    printf("%c", player);
 }
 
-void run2players(const short choice, const char* player1, const char* player2, const char character1, const char character2)
+void run2players(const short choice, char* player1, char* player2, char character1, char character2)
 {
     char firstPlayer[25];
     char secondPlayer[25];
 
-    choice == 0 ? strcpy_s(firstPlayer, sizeof(firstPlayer), player1) : strcpy_s(firstPlayer, sizeof(firstPlayer), player2);
-    firstPlayer == player1 ? strcpy_s(secondPlayer, sizeof(secondPlayer), player2) : strcpy_s(secondPlayer, sizeof(secondPlayer), player1);
+    char firstPlayerChar;
+    char secondPlayerChar;
+
+    int firstPlayerWalls = 20;
+    int secondPlayerWalls = 15;
+
+    int posFirstPlayer[2] = { 2, 20 };
+    int posSecondPlayer[2] = { 18, 20 };
+
+    if (choice == 0) 
+    {
+        strcpy_s(firstPlayer, sizeof(firstPlayer), player1);
+        strcpy_s(secondPlayer, sizeof(secondPlayer), player2);
+        firstPlayerChar = character1;
+        secondPlayerChar = character2;
+        posFirstPlayer[0] = 2;
+        posFirstPlayer[1] = 20;
+        posSecondPlayer[0] = 18;
+        posSecondPlayer[1] = 20;
+    }
+    else 
+    {
+        strcpy_s(firstPlayer, sizeof(firstPlayer), player2);
+        strcpy_s(secondPlayer, sizeof(secondPlayer), player1);
+        firstPlayerChar = character2;
+        secondPlayerChar = character1;
+        posFirstPlayer[0] = 18;
+        posFirstPlayer[1] = 20;
+        posSecondPlayer[0] = 2;
+        posSecondPlayer[1] = 20;
+    }
 
     gotoligcol(4, 50);
     printf("%s", player1);
@@ -48,47 +94,115 @@ void run2players(const short choice, const char* player1, const char* player2, c
     gotoligcol(8, 50);
     printf("Score : %d", score);
 
-    int walls1 = 20;
-    int walls2 = 20;
+    char buffer, buffer2;
 
-    gotoligcol(10, 50);
-    printf("Walls left: %d", walls1);
-
-    //timer(1, 0); <- while(true) == pause
-
-    char move[] = "move";
-    char place[] = "place";
-    char buffer[5];
-
-    int posFirstPlayer[2] = { 2, 20 };
-    int posSecondPlayer[2] = { 18, 20 };
-
-    do {
-        gotoligcol(20, 0);
-        printf("It's your turn %s", firstPlayer);
-        gotoligcol(20, strlen(firstPlayer) + 14);
-        printf(": (move/place) ");
-        fgets(buffer, sizeof(buffer), stdin);
-
-        buffer[strcspn(buffer, "\n")] = 0;
-    } while (strcmp(buffer, "move") != 0 && strcmp(buffer, "place") != 0); // ?
-
-    if (buffer == "move")
+    while (true)
     {
-        char tempMove[3];
-
-        cleanup();
-
+        gotoligcol(10, 50);
+        printf("                                    ");
+        gotoligcol(10, 50);
+        printf("Walls left: %d", firstPlayerWalls);
+        
         do {
-            printf("Where do you want to move? ");
-            fgets(tempMove, sizeof(tempMove), stdin);
+            cleanup();
+            gotoligcol(20, strlen(firstPlayer) + 37);
+            printf("             ");
 
-            tempMove[strcspn(tempMove, "\n")] = 0;
+            gotoligcol(20, 0);
+            printf("It's your turn %s", firstPlayer);
+            gotoligcol(20, strlen(firstPlayer) + 14);
+            printf(" move = m, place = p : ");
+            scanf_s("%c", &buffer, 2);
 
-        } while (!doesMoveExist(tempMove));
+        } while (buffer != 'm' && buffer != 'p');
+
+        if (buffer == 'm')
+        {
+            cleanup();
+            gotoligcol(20, 0);
+            printf("How do you want to move ?\n");
+            printf("Up : u\n");
+            printf("Down : d\n");
+            printf("Right : r\n");
+            printf("Left : l\n");
+            char movement;
+            getchar();
+            scanf_s("%c", &movement, 2);
+            switch (movement)
+            {
+            case 'r':
+                goRight(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
+                posFirstPlayer[1] += 4;
+                break;
+            case 'l':
+                goLeft(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
+                posFirstPlayer[1] -= 4;
+                break;
+            case 'u':
+                goUp(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
+                posFirstPlayer[0] -= 2;
+                break;
+            case 'd':
+                goDown(posFirstPlayer[0], posFirstPlayer[1], firstPlayerChar);
+                posFirstPlayer[0] += 2;
+                break;
+            default:
+                break;
+            }
+        }
+
+        gotoligcol(10, 50);
+        printf("                                    ");
+        gotoligcol(10, 50);
+        printf("Walls left: %d", secondPlayerWalls);
+        
+        do {
+            cleanup();
+            gotoligcol(20, strlen(secondPlayer) + 37);
+            printf("             ");
+
+            gotoligcol(20, 0);
+            printf("It's your turn %s", secondPlayer);
+            gotoligcol(20, strlen(secondPlayer) + 14);
+            printf(" move = m, place = p : ");
+            scanf_s("%c", &buffer, 2);
+
+        } while (buffer != 'm' && buffer != 'p');
+
+        if (buffer == 'm')
+        {
+            cleanup();
+            gotoligcol(20, 0);
+            printf("How do you want to move ?\n");
+            printf("Up : u\n");
+            printf("Down : d\n");
+            printf("Right : r\n");
+            printf("Left : l\n");
+            char movement;
+            getchar();
+            scanf_s("%c", &movement, 2);
+            switch (movement)
+            {
+            case 'r':
+                goRight(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
+                posSecondPlayer[1] += 4;
+                break;
+            case 'l':
+                goLeft(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
+                posSecondPlayer[1] -= 4;
+                break;
+            case 'u':
+                goUp(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
+                posFirstPlayer[0] -= 2;
+                break;
+            case 'd':
+                goDown(posSecondPlayer[0], posSecondPlayer[1], secondPlayerChar);
+                posSecondPlayer[0] += 2;
+                break;
+            default:
+                break;
+            }
+
+        }
     }
-}
-void run4players(const short choice)
-{
-
 }

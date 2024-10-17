@@ -1,3 +1,3 @@
 #pragma once
 
-void timer(const short minutes, const short secondes);
+void timer(short minutes, short secondes);

@@ -32,7 +32,7 @@ short random()
 
 void cleanup()
 {
-	for (int i = 20; i < 25; i++)
+	for (int i = 20; i < 28; i++)
 	{
 		gotoligcol(i, 0);
 		printf("                                                             ");
@@ -53,10 +53,6 @@ void get2Players()
 	gotoligcol(2, 20);
 	printf("%c", player1.character);
 
-	gotoligcol(23, 0);
-	printf("\nEnter player 1 color: ");
-	fgets(player1.color, 10, stdin);
-
 	cleanup();
 
 	struct Player player2;
@@ -71,10 +67,6 @@ void get2Players()
 
 	gotoligcol(18, 20);
 	printf("%c", player2.character);
-
-	gotoligcol(23, 0);
-	printf("\nEnter player 2 color: ");
-	fgets(player2.color, 10, stdin);
 
 	cleanup();
 

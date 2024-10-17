@@ -1,6 +1,5 @@
 #pragma once
 
-#include "../../src/utils/ASCII.h"
-#include "../../src/utils/settings.h"
+#include "../../src/utils/setup/settings.h"
 
 void Init();

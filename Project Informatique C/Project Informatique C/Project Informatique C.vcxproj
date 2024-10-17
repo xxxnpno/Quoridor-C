@@ -139,23 +139,23 @@
   <ItemGroup>
     <ClCompile Include="src\base\base.c" />
     <ClCompile Include="src\base\main\main.c" />
-    <ClCompile Include="src\game\newGame.c" />
-    <ClCompile Include="src\game\playerQol.c" />
-    <ClCompile Include="src\game\run.c" />
-    <ClCompile Include="src\utils\ASCII.c" />
-    <ClCompile Include="src\utils\coords.c" />
-    <ClCompile Include="src\utils\settings.c" />
-    <ClCompile Include="src\utils\timer.c" />
+    <ClCompile Include="src\game\init\newGame.c" />
+    <ClCompile Include="src\game\player\playerQol.c" />
+    <ClCompile Include="src\game\run\run.c" />
+    <ClCompile Include="src\utils\coordinates\coords.c" />
+    <ClCompile Include="src\utils\coordinates\support.c" />
+    <ClCompile Include="src\utils\setup\settings.c" />
+    <ClCompile Include="src\utils\qol\timer.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\base\base.h" />
-    <ClInclude Include="src\game\newGame.h" />
-    <ClInclude Include="src\game\playerQol.h" />
-    <ClInclude Include="src\game\run.h" />
-    <ClInclude Include="src\utils\ASCII.h" />
-    <ClInclude Include="src\utils\coords.h" />
-    <ClInclude Include="src\utils\settings.h" />
-    <ClInclude Include="src\utils\timer.h" />
+    <ClInclude Include="src\game\init\newGame.h" />
+    <ClInclude Include="src\game\player\playerQol.h" />
+    <ClInclude Include="src\game\run\run.h" />
+    <ClInclude Include="src\utils\coordinates\coords.h" />
+    <ClInclude Include="src\utils\coordinates\support.h" />
+    <ClInclude Include="src\utils\setup\settings.h" />
+    <ClInclude Include="src\utils\qol\timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

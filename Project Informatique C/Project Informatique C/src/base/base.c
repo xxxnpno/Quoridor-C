@@ -2,5 +2,6 @@
 
 void Init()
 {
-	start(options());
+	char choice = options();
+	start(choice);
 }

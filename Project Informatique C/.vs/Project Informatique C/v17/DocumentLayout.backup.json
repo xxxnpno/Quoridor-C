@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\run\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\run.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\player\\playerQol.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\playerQol.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\setup\\settings.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\playerQol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\base\\base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\newGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\init\\newGame.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\qol\\timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\ASCII.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\run\\run.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\settings.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\player\\playerQol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coords.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\init\\newGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coordinates\\coords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coordinates\\coords.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coordinates\\support.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coordinates\\support.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\qol\\timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\setup\\settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,30 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\main\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\base\\main\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\timer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\ASCII.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\game\\newGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\utils\\coords.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D899DB3-E6EB-4940-8016-E998FE699DE6}|Project Informatique C\\Project Informatique C.vcxproj|solutionrelative:Project Informatique C\\src\\base\\base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,13 +90,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "support.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coordinates\\support.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.h",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\coordinates\\support.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-17T16:43:30.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "support.c",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coordinates\\support.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\support.c",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\coordinates\\support.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-17T16:43:15.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "run.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.c*",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\run.c*",
-              "ViewState": "AgIAABwBAAAAAAAAAAAAAC4BAADJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run\\run.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.c",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\run\\run.c",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAYwPgAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-10-14T19:45:35.777Z",
               "EditorCaption": ""
@@ -107,187 +133,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "settings.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\settings.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.c",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\settings.c",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\setup\\settings.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.c",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\setup\\settings.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:10:58.795Z"
+              "WhenOpened": "2024-10-14T12:10:58.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "timer.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\timer.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.h",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\timer.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\qol\\timer.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.h",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\qol\\timer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T20:35:40.94Z"
+              "WhenOpened": "2024-10-14T20:35:40.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "timer.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\timer.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\timer.c",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\timer.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\qol\\timer.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\qol\\timer.c",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\qol\\timer.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T20:35:35.355Z"
+              "WhenOpened": "2024-10-14T20:35:35.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "run.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run\\run.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run\\run.h",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\run\\run.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T19:45:25.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "playerQol.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\player\\playerQol.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.h",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\player\\playerQol.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T19:39:57.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "run.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\run.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\run.h",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\run.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:45:25.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "playerQol.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\playerQol.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.h",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\playerQol.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:39:57.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "playerQol.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\playerQol.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\playerQol.c",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\playerQol.c",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\player\\playerQol.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\player\\playerQol.c",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\player\\playerQol.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T19:39:50.697Z"
+              "WhenOpened": "2024-10-14T19:39:50.697Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "coords.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coords.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.h",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\coords.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coordinates\\coords.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.h",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\coordinates\\coords.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T19:39:07.98Z"
+              "WhenOpened": "2024-10-14T19:39:07.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "coords.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coords.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coords.c",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\coords.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\coordinates\\coords.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\coordinates\\coords.c",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\coordinates\\coords.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T19:39:01.574Z"
+              "WhenOpened": "2024-10-14T19:39:01.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "newGame.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\newGame.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.c",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\newGame.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAPAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.c",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\init\\newGame.c",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.c",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\init\\newGame.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T14:18:10.685Z"
+              "WhenOpened": "2024-10-14T14:18:10.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "newGame.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\init\\newGame.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\init\\newGame.h",
+              "RelativeToolTip": "Project Informatique C\\src\\game\\init\\newGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-14T14:17:53.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "newGame.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\game\\newGame.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\game\\newGame.h",
-              "RelativeToolTip": "Project Informatique C\\src\\game\\newGame.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T14:17:53.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "settings.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\settings.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\settings.h",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\settings.h",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.h",
+              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\setup\\settings.h",
+              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\setup\\settings.h",
+              "RelativeToolTip": "Project Informatique C\\src\\utils\\setup\\settings.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T12:11:05.103Z"
+              "WhenOpened": "2024-10-14T12:11:05.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ASCII.h",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.h",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\ASCII.h",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.h",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\ASCII.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T12:03:30.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "base.c",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.c",
               "RelativeDocumentMoniker": "Project Informatique C\\src\\base\\base.c",
               "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.c",
               "RelativeToolTip": "Project Informatique C\\src\\base\\base.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:01:34.722Z"
+              "WhenOpened": "2024-10-14T12:01:34.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ASCII.c",
-              "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.c",
-              "RelativeDocumentMoniker": "Project Informatique C\\src\\utils\\ASCII.c",
-              "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\utils\\ASCII.c",
-              "RelativeToolTip": "Project Informatique C\\src\\utils\\ASCII.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T12:03:19.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "base.h",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.h",
               "RelativeDocumentMoniker": "Project Informatique C\\src\\base\\base.h",
               "ToolTip": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\base.h",
               "RelativeToolTip": "Project Informatique C\\src\\base\\base.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-14T12:01:41.606Z"
+              "WhenOpened": "2024-10-14T12:01:41.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\source\\repos\\Project Informatique C\\Project Informatique C\\src\\base\\main\\main.c",
               "RelativeDocumentMoniker": "Project Informatique C\\src\\base\\main\\main.c",
@@ -295,7 +310,8 @@
               "RelativeToolTip": "Project Informatique C\\src\\base\\main\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-14T11:54:04.778Z"
+              "WhenOpened": "2024-10-14T11:54:04.778Z",
+              "EditorCaption": ""
             }
           ]
         }

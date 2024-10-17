@@ -1,9 +1,9 @@
 C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\base\base.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\base.obj
 C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\base\main\main.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\main.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\newGame.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\newGame.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\playerQol.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\playerQol.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\run.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\ASCII.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\ASCII.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\coords.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\coords.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\settings.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\settings.obj
-C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\timer.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\timer.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\init\newGame.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\newGame.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\player\playerQol.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\playerQol.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\game\run\run.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\run.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\coordinates\coords.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\coords.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\coordinates\support.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\support.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\setup\settings.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\settings.obj
+C:\Users\Utilisateur\source\repos\Project Informatique C\Project Informatique C\src\utils\qol\timer.c;C:\Users\Utilisateur\source\repos\Project Informatique C\build\etc\timer.obj

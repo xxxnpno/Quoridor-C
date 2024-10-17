@@ -21,25 +21,25 @@
     <ClCompile Include="src\base\base.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\utils\ASCII.c">
+    <ClCompile Include="src\utils\setup\settings.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\utils\settings.c">
+    <ClCompile Include="src\game\init\newGame.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\game\newGame.c">
+    <ClCompile Include="src\utils\coordinates\coords.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\utils\coords.c">
+    <ClCompile Include="src\game\player\playerQol.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\game\playerQol.c">
+    <ClCompile Include="src\game\run\run.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\game\run.c">
+    <ClCompile Include="src\utils\qol\timer.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\utils\timer.c">
+    <ClCompile Include="src\utils\coordinates\support.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,25 +47,25 @@
     <ClInclude Include="src\base\base.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\utils\ASCII.h">
+    <ClInclude Include="src\utils\setup\settings.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\utils\settings.h">
+    <ClInclude Include="src\game\init\newGame.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\game\newGame.h">
+    <ClInclude Include="src\utils\coordinates\coords.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\utils\coords.h">
+    <ClInclude Include="src\game\player\playerQol.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\game\playerQol.h">
+    <ClInclude Include="src\game\run\run.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\game\run.h">
+    <ClInclude Include="src\utils\qol\timer.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="src\utils\timer.h">
+    <ClInclude Include="src\utils\coordinates\support.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

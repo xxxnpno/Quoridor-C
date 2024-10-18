@@ -441,10 +441,112 @@ void setHeader(char* firstPlayer, char* secondPlayer, char firstPlayerChar, char
     printf("%s", secondPlayer);
 }
 
-void setWalls(int x, int y)
+bool setWalls(int x1, int y1, int x2, int y2)
 {
-    gotoligcol(x, y);
-    printf("#");
+    if (getCharAtPos(x1, y1) != '.' || getCharAtPos(x2, y2) != '.')
+    {
+        gotoligcol(12, 50);
+        printf("You can't place a wall here !");
+        Sleep(2000);
+        gotoligcol(12, 50);
+        printf("                                    ");
+        return false;
+    }
+    if (x1 % 2 == 1 && (y1 == 6 || y1 == 10 || y1 == 14 || y1 == 18 || y1 == 22 || y1 == 26 || y1 == 30 || y1 == 34)) // c'est quoi cette ligne de golmon
+    {
+        gotoligcol(12, 50);
+        printf("You can't place a wall here !");
+        Sleep(2000);
+        gotoligcol(12, 50);
+        printf("                                    ");
+        return false;
+    }
+    if ((x1 + 2 == x2 || x1 - 2 == x2) && y1 == y2)
+    {
+        if (getCharAtPos(x1 + 1, y1) == '+' || getCharAtPos(x1 - 1, y1) == '+')
+        {
+            gotoligcol(12, 50);
+            printf("There is a + !");
+            Sleep(2000);
+            gotoligcol(12, 50);
+            printf("                                    ");
+            return false;
+        }
+        gotoligcol(x1, y1);
+        printf("#");
+        gotoligcol(x2, y2);
+        printf("#");
+        return true;
+    }
+    if ((y1 + 4 == y2 || y1 - 4 == y2) && x1 == x2)
+    {
+        if (getCharAtPos(x1 + 2, y1) == '+')
+        {
+            gotoligcol(12, 50);
+            printf("There is a + !");
+            Sleep(2000);
+            gotoligcol(12, 50);
+            printf("                                    ");
+            return false;
+        }
+        if (getCharAtPos(x1, y1 + 2) == '+' || getCharAtPos(x1, y1 - 2) == '+')
+        {
+            gotoligcol(12, 50);
+            printf("There is a + !");
+            Sleep(2000);
+            gotoligcol(12, 50);
+            printf("                                    ");
+            return false;
+        }
+        gotoligcol(x1, y1);
+        printf("#");
+        gotoligcol(x2, y2);
+        printf("#");
+        return true;
+    }
+    gotoligcol(12, 50);
+    printf("Umh !");
+    Sleep(2000);
+    gotoligcol(12, 50);
+    printf("                                    ");
+    return false;
+}
+
+void updateWalls()
+{
+    for (int i = 2; i < 18; i++)
+    {
+        for (int j = 4; j < 36; j += 2)
+        {
+            if (getCharAtPos(i, j) == '#')
+            {
+                if (getCharAtPos(i - 2, j) == '#')
+                {
+                    if (getCharAtPos(i - 1, j)) break;
+                    gotoligcol(i - 1, j);
+                    printf("#");
+                }
+                if (getCharAtPos(i + 2, j) == '#')
+                {
+                    if (getCharAtPos(i + 1, j)) break;
+                    gotoligcol(i + 1, j);
+                    printf("#");
+                }
+                if (getCharAtPos(i, j - 4) == '#')
+                {
+                    if (getCharAtPos(i, j - 2)) break;
+                    gotoligcol(i, j - 2);
+                    printf("#");
+                }
+                if (getCharAtPos(i, j + 4) == '#')
+                {
+                    if (getCharAtPos(i, j + 2)) break;
+                    gotoligcol(i, j + 2);
+                    printf("#");
+                }
+            }
+        }
+    }
 }
 
 void run2players(const short choice, char* player1, char* player2, char character1, char character2)
@@ -495,13 +597,15 @@ void run2players(const short choice, char* player1, char* player2, char characte
         char buffer, movement;
         int score = 0;
 
-        for (int playerTurn = 0; playerTurn < 2; playerTurn++) 
+        for (int playerTurn = 0; playerTurn < 2; playerTurn++)
         {
             char* currentPlayer = (playerTurn == 0) ? firstPlayer : secondPlayer;
             int* currentPlayerPos = (playerTurn == 0) ? posFirstPlayer : posSecondPlayer;
             int* opponentPlayerPos = (playerTurn == 0) ? posSecondPlayer : posFirstPlayer;
             int* currentPlayerWalls = (playerTurn == 0) ? &firstPlayerWalls : &secondPlayerWalls;
             char currentPlayerChar = (playerTurn == 0) ? firstPlayerChar : secondPlayerChar;
+
+            updateWalls();
 
             gotoligcol(8, 50);
             printf("Score : %d", score);
@@ -516,7 +620,8 @@ void run2players(const short choice, char* player1, char* player2, char characte
             gotoligcol(10, 50);
             printf("Walls left: %d", *currentPlayerWalls);
 
-            do {
+            do 
+            {
                 cleanup();
                 gotoligcol(20, strlen(currentPlayer) + 37);
                 printf("             ");
@@ -540,11 +645,11 @@ void run2players(const short choice, char* player1, char* player2, char characte
                     printf("Left : l\n");
                     scanf_s(" %c", &movement, 2);
                 } while (legitCheck(currentPlayerPos[0], currentPlayerPos[1], opponentPlayerPos[0], opponentPlayerPos[1], movement) == 0);
-                   
 
                 int moveType = legitCheck(currentPlayerPos[0], currentPlayerPos[1], opponentPlayerPos[0], opponentPlayerPos[1], movement);
 
-                if (moveType == 1 || moveType == 2) {
+                if (moveType == 1 || moveType == 2) 
+                {
                     int step = (moveType == 1) ? 4 : 8;
 
                     switch (movement) {
@@ -583,11 +688,35 @@ void run2players(const short choice, char* player1, char* player2, char characte
             }
             if (buffer == 'p')
             {
-                
+                if (playerTurn == 0 && firstPlayerWalls == 0)
+                {
+                    printf("You don't have any walls left");
+                    break;
+                }
+                if (playerTurn == 1 && secondPlayerWalls == 0)
+                {
+                    printf("You don't have any walls left");
+                    break;
+                }
+                int wallX1, wallY1, wallX2, wallY2;
+                do
+                {
+                    cleanup();
+                    gotoligcol(20, 0);
+                    printf("Enter x coord for your first wall :\n");
+                    scanf_s("%d", &wallX1);
+                    printf("Enter y coord for your first wall :\n");
+                    scanf_s("%d", &wallY1);
+
+                    cleanup();
+                    gotoligcol(20, 0);
+                    printf("Enter x coord for your second wall :\n");
+                    scanf_s("%d", &wallX2);
+                    printf("Enter y coord for your second wall :\n");
+                    scanf_s("%d", &wallY2);
+                } while (!setWalls(wallX1, wallY1, wallX2, wallY2));
+                playerTurn == 0 ? firstPlayerWalls-- : secondPlayerWalls--;
             }
         }
     }
 }
-
-
-//test
